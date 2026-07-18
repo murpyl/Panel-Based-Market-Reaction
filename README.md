@@ -23,7 +23,7 @@ Instead of studying a single high-profile account against a single stock (a heav
 - Not a trading system, and not used to trade real money.
 - Not a signal or advice service — nothing produced here is shared with or sent to anyone other than the author. This avoids the liability and unlicensed-advice concerns that come with distributing predictive market content to other people.
 - Not claiming that a post *causes* a market reaction. The tested hypothesis is that deviation-from-baseline is a predictive feature — a plausible alternative explanation is that both the unusual post and the market reaction are downstream of some shared real-world event (e.g., a surprise announcement covered simultaneously by news outlets). This project does not fully disentangle that and says so explicitly in its results, rather than overclaiming.
-- Not a large-scale or exhaustive study. The panel is intentionally small (8–12 accounts), chosen with explicit, stated reasoning rather than an exhaustive or random sample — a limitation, not a hidden assumption.
+- Not a large-scale or exhaustive study. The panel is intentionally small (6 accounts), chosen with explicit, stated reasoning rather than an exhaustive or random sample — a limitation, not a hidden assumption.
 
 ## Methodology, briefly
 
@@ -33,10 +33,10 @@ Instead of studying a single high-profile account against a single stock (a heav
 4. **Validation:** Leave-one-account-out cross-validation, plus a single pre-registered statistical test (account subset, horizon, and correction method fixed and committed *before* any modeling — see `PREREGISTRATION.md`) to avoid quietly cherry-picking a favorable result after the fact.
 5. **Forward log:** Every prediction is logged with a timestamp before its outcome is known, and re-scored later — the raw logged predictions are never edited retroactively.
 
-## Known limitations (stated up front, not discovered later)
+## Known limitations (stated up front)
 
 - **Free-tier price data (Alpaca/IEX) does not cover the full consolidated market tape**, particularly for volume. The primary target is defined on price/volatility (which tracks the broader market more closely even on a single venue) rather than volume, specifically to reduce exposure to this gap; volume-based results are treated as lower-confidence and secondary.
-- **Small panel size** (8–12 accounts) means limited statistical power and a panel chosen by researcher judgment about plausible signal, not a random or exhaustive sample.
+- **Small panel size** (6 accounts) means limited statistical power and a panel chosen by researcher judgment about plausible signal, not a random or exhaustive sample.
 - **No control for news co-occurrence** in the base version of this project (an optional stretch feature using GDELT may be added if time allows) — so results should be read as "deviation-from-baseline correlates with abnormal activity," not "the post caused the reaction."
 - **Time-of-day seasonality** in market volatility (elevated near open/close) is explicitly adjusted for in the abnormal-event threshold to avoid spuriously flagging ordinary open/close activity.
 - **Sample period is regime-dependent.** Results reflect market conditions during the specific historical window tested and are not assumed to generalize to all market regimes.
