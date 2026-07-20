@@ -1,5 +1,5 @@
 # Pre-Registration — Track A Panel Test
-**DATE COMMITTED:** 2026-07-20 (Week 1)
+**DATE COMMITTED:** 2026-07-20 (Week 1)\
 **Status:** Committed *before any modeling or result-viewing*
 
 ## Panel
@@ -15,7 +15,7 @@
 | Vlad Tenev | HOOD |
 | Tobias Lutke | SHOP |
 
-**Expected-null group (pre-committed, not fit to data):** Musk, Nadella are both extremely high-profile, presumed heavily arbitraged, expected near-zero effect.
+**Expected-null group (pre-committed, not fit to data):** Musk, Nadella are extremely high-profile, presumed heavily arbitraged, expected near-zero effect.\
 **Plausible-signal group:** Benioff, Levie, Amon, Tenev, Lutke.
 
 **Stated limitation:** 
@@ -31,8 +31,8 @@
 ## Target
 Abnormal volatility/volume within 15 minutes, market-adjusted against SPY, time-of-day-adjusted against each ticker's typical volatility in the same 15-minute-of-day window.
 
-## Claim being tested
-"Deviation from an author's historical rhetoric (embedding distance from rolling centroid) predicts abnormal market reaction."
+## Claim
+Claim being tested: "Deviation from an author's historical rhetoric (embedding distance from rolling centroid) predicts abnormal market reaction."\
 **Not** being claimed: that the post itself causes the reaction. It is recognized that co-occurring news is a plausible alternative explanation and is not fully ruled out at this scope.
 
 ## Validation
