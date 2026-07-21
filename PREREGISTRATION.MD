@@ -1,21 +1,23 @@
 # Pre-Registration — Track A Panel Test
-**DATE COMMITTED:** 2026-07-20 (Week 1)\
+**DATE COMMITTED:** Week of 2026-07-20 (Week 1)\
 **Status:** Committed *before any modeling or result-viewing*
 
 ## Panel
-7 accounts with one primary ticker each:
+6 accounts with one primary ticker each:
 
 | Account | Ticker |
 |---|---|
-| Elon Musk | TSLA |
+| ~~Elon Musk~~ | ~~TSLA~~ |
 | Satya Nadella | MSFT |
 | Marc Benioff | CRM |
 | Aaron Levie | BOX |
 | Cristiano Amon | QCOM |
 | Vlad Tenev | HOOD |
-| Tobias Lutke | SHOP |
+| Tobias Lutke | SHOP | \
 
-**Expected-null group (pre-committed, not fit to data):** Musk, Nadella are extremely high-profile, presumed heavily arbitraged, expected near-zero effect.\
+Musk was originally included as a part of the expected-null group; however, due to limitations with X API, it was excluded from the panel and is not included in the pre-committed panel. His day-to-day posting has also become too erratic/high-variance compared to previous years, where his commentary was more typical of a CEO (business, product, Tesla/EVs).\
+
+**Expected-null group (pre-committed, not fit to data):** Nadella is extremely high-profile, presumed heavily arbitraged, expected near-zero effect.\
 **Plausible-signal group:** Benioff, Levie, Amon, Tenev, Lutke.
 
 **Stated limitation:** 
