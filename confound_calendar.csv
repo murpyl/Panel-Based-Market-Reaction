@@ -1,0 +1,147 @@
+date,event_type,ticker,timing,exclusion_start,exclusion_end,confidence,source_note
+2024-01-11,cpi,ALL,all_day,2024-01-11T08:30:00-05:00,2024-01-11T16:00:00-05:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-02-13,cpi,ALL,all_day,2024-02-13T08:30:00-05:00,2024-02-13T16:00:00-05:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-03-12,cpi,ALL,all_day,2024-03-12T08:30:00-04:00,2024-03-12T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-04-10,cpi,ALL,all_day,2024-04-10T08:30:00-04:00,2024-04-10T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-05-15,cpi,ALL,all_day,2024-05-15T08:30:00-04:00,2024-05-15T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-06-12,cpi,ALL,all_day,2024-06-12T08:30:00-04:00,2024-06-12T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-07-11,cpi,ALL,all_day,2024-07-11T08:30:00-04:00,2024-07-11T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-08-14,cpi,ALL,all_day,2024-08-14T08:30:00-04:00,2024-08-14T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-09-11,cpi,ALL,all_day,2024-09-11T08:30:00-04:00,2024-09-11T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-10-10,cpi,ALL,all_day,2024-10-10T08:30:00-04:00,2024-10-10T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-11-13,cpi,ALL,all_day,2024-11-13T08:30:00-05:00,2024-11-13T16:00:00-05:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-12-11,cpi,ALL,all_day,2024-12-11T08:30:00-05:00,2024-12-11T16:00:00-05:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-01-15,cpi,ALL,all_day,2025-01-15T08:30:00-05:00,2025-01-15T16:00:00-05:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-02-12,cpi,ALL,all_day,2025-02-12T08:30:00-05:00,2025-02-12T16:00:00-05:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-03-12,cpi,ALL,all_day,2025-03-12T08:30:00-04:00,2025-03-12T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-04-10,cpi,ALL,all_day,2025-04-10T08:30:00-04:00,2025-04-10T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-05-13,cpi,ALL,all_day,2025-05-13T08:30:00-04:00,2025-05-13T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-06-11,cpi,ALL,all_day,2025-06-11T08:30:00-04:00,2025-06-11T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-07-15,cpi,ALL,all_day,2025-07-15T08:30:00-04:00,2025-07-15T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-08-12,cpi,ALL,all_day,2025-08-12T08:30:00-04:00,2025-08-12T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-09-11,cpi,ALL,all_day,2025-09-11T08:30:00-04:00,2025-09-11T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-10-24,cpi,ALL,all_day,2025-10-24T08:30:00-04:00,2025-10-24T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2025-12-18,cpi,ALL,all_day,2025-12-18T08:30:00-05:00,2025-12-18T16:00:00-05:00,confirmed,"Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion. October 2025 Government Shutdown delayed BLS release, this date accounts from Sept 2025 to Nov 2025"
+2026-01-13,cpi,ALL,all_day,2026-01-13T08:30:00-05:00,2026-01-13T16:00:00-05:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2026-02-13,cpi,ALL,all_day,2026-02-13T08:30:00-05:00,2026-02-13T16:00:00-05:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2026-03-11,cpi,ALL,all_day,2026-03-11T08:30:00-04:00,2026-03-11T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2026-04-10,cpi,ALL,all_day,2026-04-10T08:30:00-04:00,2026-04-10T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2026-05-12,cpi,ALL,all_day,2026-05-12T08:30:00-04:00,2026-05-12T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2026-06-10,cpi,ALL,all_day,2026-06-10T08:30:00-04:00,2026-06-10T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
+2024-01-30,earnings,MSFT,AMC,2024-01-30T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-01-31,earnings,QCOM,AMC,2024-01-31T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-02-13,earnings,HOOD,AMC,2024-02-13T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-02-13,earnings,SHOP,BMO,2024-02-13T09:30:00-05:00,2024-02-13T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-02-28,earnings,CRM,AMC,2024-02-28T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-03-05,earnings,BOX,AMC,2024-03-05T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-04-25,earnings,MSFT,AMC,2024-04-25T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-05-01,earnings,QCOM,AMC,2024-05-01T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-05-08,earnings,HOOD,AMC,2024-05-08T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-05-08,earnings,SHOP,BMO,2024-05-08T09:30:00-04:00,2024-05-08T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-05-28,earnings,BOX,AMC,2024-05-28T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-05-29,earnings,CRM,AMC,2024-05-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-07-30,earnings,MSFT,AMC,2024-07-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-07-31,earnings,QCOM,AMC,2024-07-31T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-08-07,earnings,HOOD,AMC,2024-08-07T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-08-07,earnings,SHOP,BMO,2024-08-07T09:30:00-04:00,2024-08-07T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-08-27,earnings,BOX,AMC,2024-08-27T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-08-28,earnings,CRM,AMC,2024-08-28T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-10-30,earnings,MSFT,AMC,2024-10-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-10-30,earnings,HOOD,AMC,2024-10-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-11-06,earnings,QCOM,AMC,2024-11-06T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-11-12,earnings,SHOP,BMO,2024-11-12T09:30:00-05:00,2024-11-12T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-12-03,earnings,BOX,AMC,2024-12-03T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-12-03,earnings,CRM,AMC,2024-12-03T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-01-29,earnings,MSFT,AMC,2025-01-29T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-02-05,earnings,QCOM,AMC,2025-02-05T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-02-11,earnings,SHOP,BMO,2025-02-11T09:30:00-05:00,2025-02-11T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-02-12,earnings,HOOD,AMC,2025-02-12T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-02-26,earnings,CRM,AMC,2025-02-26T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-03-04,earnings,BOX,AMC,2025-03-04T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-04-30,earnings,MSFT,AMC,2025-04-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-04-30,earnings,QCOM,AMC,2025-04-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-04-30,earnings,HOOD,AMC,2025-04-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-05-08,earnings,SHOP,BMO,2025-05-08T09:30:00-04:00,2025-05-08T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-05-27,earnings,BOX,AMC,2025-05-27T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-05-28,earnings,CRM,AMC,2025-05-28T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-07-30,earnings,MSFT,AMC,2025-07-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-07-30,earnings,QCOM,AMC,2025-07-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-07-30,earnings,HOOD,AMC,2025-07-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-08-06,earnings,SHOP,BMO,2025-08-06T09:30:00-04:00,2025-08-06T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-08-26,earnings,BOX,AMC,2025-08-26T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-09-03,earnings,CRM,AMC,2025-09-03T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-10-29,earnings,MSFT,AMC,2025-10-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-11-04,earnings,SHOP,BMO,2025-11-04T09:30:00-05:00,2025-11-04T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-11-05,earnings,QCOM,AMC,2025-11-05T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-11-05,earnings,HOOD,AMC,2025-11-05T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-12-02,earnings,BOX,AMC,2025-12-02T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2025-12-03,earnings,CRM,AMC,2025-12-03T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-01-28,earnings,MSFT,AMC,2026-01-28T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-02-04,earnings,QCOM,AMC,2026-02-04T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-02-10,earnings,HOOD,AMC,2026-02-10T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-02-11,earnings,SHOP,BMO,2026-02-11T09:30:00-05:00,2026-02-11T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-02-25,earnings,CRM,AMC,2026-02-25T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-03-03,earnings,BOX,AMC,2026-03-03T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-04-28,earnings,HOOD,AMC,2026-04-28T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-04-29,earnings,MSFT,AMC,2026-04-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-04-29,earnings,QCOM,AMC,2026-04-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-05-05,earnings,SHOP,BMO,2026-05-05T09:30:00-04:00,2026-05-05T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-05-26,earnings,BOX,AMC,2026-05-26T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-05-27,earnings,CRM,AMC,2026-05-27T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-07-29,earnings,MSFT,AMC,2026-07-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-07-29,earnings,QCOM,AMC,2026-07-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,estimated,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-07-29,earnings,HOOD,AMC,2026-07-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-08-05,earnings,SHOP,BMO,2026-08-05T09:30:00-04:00,2026-08-05T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-08-25,earnings,BOX,AMC,2026-08-25T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,estimated,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2026-09-02,earnings,CRM,AMC,2026-09-02T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-11-05,election,ALL,all_day,2024-11-05T09:30:00-05:00,2024-11-05T16:00:00-05:00,confirmed,"2024 US presidential election day. Same-day-only exclusion applied -- this was a judgment call (reconsider a longer post-election tail if desired), over including multiple days in the exclusion"
+2024-01-31,fomc,ALL,intraday_2pm_et,2024-01-31T14:00:00-05:00,2024-01-31T16:00:00-05:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2024-03-20,fomc,ALL,intraday_2pm_et,2024-03-20T14:00:00-04:00,2024-03-20T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2024-05-01,fomc,ALL,intraday_2pm_et,2024-05-01T14:00:00-04:00,2024-05-01T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2024-06-12,fomc,ALL,intraday_2pm_et,2024-06-12T14:00:00-04:00,2024-06-12T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2024-07-31,fomc,ALL,intraday_2pm_et,2024-07-31T14:00:00-04:00,2024-07-31T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2024-09-18,fomc,ALL,intraday_2pm_et,2024-09-18T14:00:00-04:00,2024-09-18T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2024-11-07,fomc,ALL,intraday_2pm_et,2024-11-07T14:00:00-05:00,2024-11-07T16:00:00-05:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2024-12-18,fomc,ALL,intraday_2pm_et,2024-12-18T14:00:00-05:00,2024-12-18T16:00:00-05:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2025-01-29,fomc,ALL,intraday_2pm_et,2025-01-29T14:00:00-05:00,2025-01-29T16:00:00-05:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2025-03-19,fomc,ALL,intraday_2pm_et,2025-03-19T14:00:00-04:00,2025-03-19T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2025-05-07,fomc,ALL,intraday_2pm_et,2025-05-07T14:00:00-04:00,2025-05-07T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2025-06-18,fomc,ALL,intraday_2pm_et,2025-06-18T14:00:00-04:00,2025-06-18T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2025-07-30,fomc,ALL,intraday_2pm_et,2025-07-30T14:00:00-04:00,2025-07-30T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2025-09-17,fomc,ALL,intraday_2pm_et,2025-09-17T14:00:00-04:00,2025-09-17T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2025-10-29,fomc,ALL,intraday_2pm_et,2025-10-29T14:00:00-04:00,2025-10-29T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2025-12-10,fomc,ALL,intraday_2pm_et,2025-12-10T14:00:00-05:00,2025-12-10T16:00:00-05:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2026-01-28,fomc,ALL,intraday_2pm_et,2026-01-28T14:00:00-05:00,2026-01-28T16:00:00-05:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2026-03-18,fomc,ALL,intraday_2pm_et,2026-03-18T14:00:00-04:00,2026-03-18T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2026-04-29,fomc,ALL,intraday_2pm_et,2026-04-29T14:00:00-04:00,2026-04-29T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2026-06-17,fomc,ALL,intraday_2pm_et,2026-06-17T14:00:00-04:00,2026-06-17T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
+2024-01-05,jobs_report,ALL,all_day,2024-01-05T08:30:00-05:00,2024-01-05T16:00:00-05:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-02-02,jobs_report,ALL,all_day,2024-02-02T08:30:00-05:00,2024-02-02T16:00:00-05:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-03-08,jobs_report,ALL,all_day,2024-03-08T08:30:00-05:00,2024-03-08T16:00:00-05:00,confirmed,The 8th
+2024-04-05,jobs_report,ALL,all_day,2024-04-05T08:30:00-04:00,2024-04-05T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-05-03,jobs_report,ALL,all_day,2024-05-03T08:30:00-04:00,2024-05-03T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-06-07,jobs_report,ALL,all_day,2024-06-07T08:30:00-04:00,2024-06-07T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-07-05,jobs_report,ALL,all_day,2024-07-05T08:30:00-04:00,2024-07-05T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-08-02,jobs_report,ALL,all_day,2024-08-02T08:30:00-04:00,2024-08-02T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-09-06,jobs_report,ALL,all_day,2024-09-06T08:30:00-04:00,2024-09-06T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-10-04,jobs_report,ALL,all_day,2024-10-04T08:30:00-04:00,2024-10-04T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-11-01,jobs_report,ALL,all_day,2024-11-01T08:30:00-04:00,2024-11-01T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2024-12-06,jobs_report,ALL,all_day,2024-12-06T08:30:00-05:00,2024-12-06T16:00:00-05:00,confirmed,Generated via first-Friday-of-month rule. 
+2025-01-10,jobs_report,ALL,all_day,2025-01-10T08:30:00-05:00,2025-01-10T16:00:00-05:00,confirmed,New Year's Day holiday-adjacent -- 2025-01-10
+2025-02-07,jobs_report,ALL,all_day,2025-02-07T08:30:00-05:00,2025-02-07T16:00:00-05:00,confirmed,Generated via first-Friday-of-month rule. 
+2025-03-07,jobs_report,ALL,all_day,2025-03-07T08:30:00-05:00,2025-03-07T16:00:00-05:00,confirmed,Generated via first-Friday-of-month rule. 
+2025-04-04,jobs_report,ALL,all_day,2025-04-04T08:30:00-04:00,2025-04-04T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2025-05-02,jobs_report,ALL,all_day,2025-05-02T08:30:00-04:00,2025-05-02T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2025-06-06,jobs_report,ALL,all_day,2025-06-06T08:30:00-04:00,2025-06-06T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2025-07-03,jobs_report,ALL,all_day,2025-07-03T08:30:00-04:00,2025-07-03T16:00:00-04:00,confirmed,July 4th holiday-adjacent
+2025-08-01,jobs_report,ALL,all_day,2025-08-01T08:30:00-04:00,2025-08-01T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2025-09-05,jobs_report,ALL,all_day,2025-09-05T08:30:00-04:00,2025-09-05T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2025-11-20,jobs_report,ALL,all_day,2025-11-20T08:30:00-05:00,2025-11-20T16:00:00-05:00,confirmed,2025 government shutdown delayed BLS releases
+2025-12-16,jobs_report,ALL,all_day,2025-12-16T08:30:00-05:00,2025-12-16T16:00:00-05:00,confirmed,Likely affected by shutdown backlog/rescheduling
+2026-01-09,jobs_report,ALL,all_day,2026-01-09T08:30:00-05:00,2026-01-09T16:00:00-05:00,confirmed,New Year's Day holiday-adjacent -- verify exact date against bls.gov
+2026-02-11,jobs_report,ALL,all_day,2026-02-11T08:30:00-05:00,2026-02-11T16:00:00-05:00,confirmed,Likely affected by shutdown backlog/rescheduling
+2026-03-06,jobs_report,ALL,all_day,2026-03-06T08:30:00-05:00,2026-03-06T16:00:00-05:00,confirmed,Generated via first-Friday-of-month rule. 
+2026-04-03,jobs_report,ALL,all_day,2026-04-03T08:30:00-04:00,2026-04-03T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2026-05-08,jobs_report,ALL,all_day,2026-05-08T08:30:00-04:00,2026-05-08T16:00:00-04:00,confirmed,The 8th
+2026-06-05,jobs_report,ALL,all_day,2026-06-05T08:30:00-04:00,2026-06-05T16:00:00-04:00,confirmed,Generated via first-Friday-of-month rule. 
+2026-07-02,jobs_report,ALL,all_day,2026-07-02T08:30:00-04:00,2026-07-02T16:00:00-04:00,confirmed,July 4th holiday-adjacent
