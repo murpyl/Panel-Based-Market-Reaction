@@ -240,8 +240,7 @@ for d, ticker, timing, confidence in confirmed_earnings:
         excl_start = et_dt(d, 9, 30)
         excl_end = et_dt(d, 16, 0)
     add(d, "earnings", ticker, timing, excl_start, excl_end, confidence,
-        "Confirmed/estimated during prior research -- BOX and QCOM dates still "
-        "need final confirmation closer to the date.")
+        "Confirmed via Alphaquery")
 
 # for ticker in ["MSFT", "CRM", "BOX", "QCOM", "HOOD", "SHOP"]:
 #     add(
