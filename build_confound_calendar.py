@@ -32,6 +32,8 @@ Rules encoded here (per prior decisions):
 import csv
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
+import pandas as pd
+import pandas_market_calendars as mcal
 
 ET = ZoneInfo("America/New_York")
 
@@ -42,6 +44,44 @@ def et_dt(d_str, hour, minute):
     dt = datetime(y, m, day, hour, minute, tzinfo=ET)
     return dt.isoformat()
 
+
+ET = ZoneInfo("America/New_York")
+
+nyse = mcal.get_calendar("NYSE")
+
+def get_schedule(start: str, end: str) -> pd.DataFrame:
+    """
+    Returns a DataFrame indexed by trading date, with 'market_open' and
+    'market_close' columns already in the correct timezone (UTC by
+    default from the library -- converted to ET below for readability
+    and consistency with the rest of the pipeline).
+    """
+    schedule = nyse.schedule(start_date=start, end_date=end)
+    schedule["market_open"] = schedule["market_open"].dt.tz_convert(ET)
+    schedule["market_close"] = schedule["market_close"].dt.tz_convert(ET)
+    return schedule
+
+
+def next_trading_day_close(release_date_str: str, schedule: pd.DataFrame) -> str:
+    """
+    Given an AMC earnings release date (YYYY-MM-DD) and a pre-fetched
+    schedule DataFrame covering at least a few days past that date,
+    returns the ISO timestamp of the close of the NEXT trading day.
+    """
+    release_date = pd.Timestamp(release_date_str).normalize()
+
+    # trading dates strictly after the release date
+    future_days = schedule.index[schedule.index > release_date]
+    if len(future_days) == 0:
+        raise ValueError(
+            f"No trading days found after {release_date_str} in the "
+            f"provided schedule -- widen the schedule's end_date."
+        )
+    next_day = future_days[0]
+    close_ts = schedule.loc[next_day, "market_close"]
+    return close_ts.isoformat()
+
+schedule = get_schedule("2024-01-01", "2026-12-31")
 rows = []
 
 def add(d, event_type, ticker, timing, excl_start, excl_end, confidence, note):
@@ -235,7 +275,7 @@ confirmed_earnings = [
 for d, ticker, timing, confidence in confirmed_earnings:
     if timing == "AMC":
         excl_start = et_dt(d, 16, 0)
-        excl_end = "NEXT_TRADING_DAY_CLOSE"  # resolve with a trading calendar
+        excl_end = next_trading_day_close(d, schedule)
     else:  # BMO
         excl_start = et_dt(d, 9, 30)
         excl_end = et_dt(d, 16, 0)

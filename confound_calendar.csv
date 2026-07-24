@@ -28,72 +28,72 @@ date,event_type,ticker,timing,exclusion_start,exclusion_end,confidence,source_no
 2026-04-10,cpi,ALL,all_day,2026-04-10T08:30:00-04:00,2026-04-10T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
 2026-05-12,cpi,ALL,all_day,2026-05-12T08:30:00-04:00,2026-05-12T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
 2026-06-10,cpi,ALL,all_day,2026-06-10T08:30:00-04:00,2026-06-10T16:00:00-04:00,confirmed,Sourced from bls.gov/cpi archived news releases. Same-day-only exclusion.
-2024-01-30,earnings,MSFT,AMC,2024-01-30T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-01-31,earnings,QCOM,AMC,2024-01-31T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-02-13,earnings,HOOD,AMC,2024-02-13T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-02-13,earnings,SHOP,BMO,2024-02-13T09:30:00-05:00,2024-02-13T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-02-28,earnings,CRM,AMC,2024-02-28T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-03-05,earnings,BOX,AMC,2024-03-05T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-04-25,earnings,MSFT,AMC,2024-04-25T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-05-01,earnings,QCOM,AMC,2024-05-01T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-05-08,earnings,HOOD,AMC,2024-05-08T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-05-08,earnings,SHOP,BMO,2024-05-08T09:30:00-04:00,2024-05-08T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-05-28,earnings,BOX,AMC,2024-05-28T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-05-29,earnings,CRM,AMC,2024-05-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-07-30,earnings,MSFT,AMC,2024-07-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-07-31,earnings,QCOM,AMC,2024-07-31T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-08-07,earnings,HOOD,AMC,2024-08-07T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-08-07,earnings,SHOP,BMO,2024-08-07T09:30:00-04:00,2024-08-07T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-08-27,earnings,BOX,AMC,2024-08-27T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-08-28,earnings,CRM,AMC,2024-08-28T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-10-30,earnings,MSFT,AMC,2024-10-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-10-30,earnings,HOOD,AMC,2024-10-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-11-06,earnings,QCOM,AMC,2024-11-06T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-11-12,earnings,SHOP,BMO,2024-11-12T09:30:00-05:00,2024-11-12T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-12-03,earnings,BOX,AMC,2024-12-03T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2024-12-03,earnings,CRM,AMC,2024-12-03T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-01-29,earnings,MSFT,AMC,2025-01-29T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-02-05,earnings,QCOM,AMC,2025-02-05T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-02-11,earnings,SHOP,BMO,2025-02-11T09:30:00-05:00,2025-02-11T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-02-12,earnings,HOOD,AMC,2025-02-12T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-02-26,earnings,CRM,AMC,2025-02-26T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-03-04,earnings,BOX,AMC,2025-03-04T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-04-30,earnings,MSFT,AMC,2025-04-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-04-30,earnings,QCOM,AMC,2025-04-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-04-30,earnings,HOOD,AMC,2025-04-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-05-08,earnings,SHOP,BMO,2025-05-08T09:30:00-04:00,2025-05-08T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-05-27,earnings,BOX,AMC,2025-05-27T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-05-28,earnings,CRM,AMC,2025-05-28T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-07-30,earnings,MSFT,AMC,2025-07-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-07-30,earnings,QCOM,AMC,2025-07-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-07-30,earnings,HOOD,AMC,2025-07-30T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-08-06,earnings,SHOP,BMO,2025-08-06T09:30:00-04:00,2025-08-06T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-08-26,earnings,BOX,AMC,2025-08-26T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-09-03,earnings,CRM,AMC,2025-09-03T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-10-29,earnings,MSFT,AMC,2025-10-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-11-04,earnings,SHOP,BMO,2025-11-04T09:30:00-05:00,2025-11-04T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-11-05,earnings,QCOM,AMC,2025-11-05T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-11-05,earnings,HOOD,AMC,2025-11-05T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-12-02,earnings,BOX,AMC,2025-12-02T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2025-12-03,earnings,CRM,AMC,2025-12-03T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-01-28,earnings,MSFT,AMC,2026-01-28T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-02-04,earnings,QCOM,AMC,2026-02-04T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-02-10,earnings,HOOD,AMC,2026-02-10T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-02-11,earnings,SHOP,BMO,2026-02-11T09:30:00-05:00,2026-02-11T16:00:00-05:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-02-25,earnings,CRM,AMC,2026-02-25T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-03-03,earnings,BOX,AMC,2026-03-03T16:00:00-05:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-04-28,earnings,HOOD,AMC,2026-04-28T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-04-29,earnings,MSFT,AMC,2026-04-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-04-29,earnings,QCOM,AMC,2026-04-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-05-05,earnings,SHOP,BMO,2026-05-05T09:30:00-04:00,2026-05-05T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-05-26,earnings,BOX,AMC,2026-05-26T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-05-27,earnings,CRM,AMC,2026-05-27T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-07-29,earnings,MSFT,AMC,2026-07-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-07-29,earnings,QCOM,AMC,2026-07-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,estimated,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-07-29,earnings,HOOD,AMC,2026-07-29T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-08-05,earnings,SHOP,BMO,2026-08-05T09:30:00-04:00,2026-08-05T16:00:00-04:00,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-08-25,earnings,BOX,AMC,2026-08-25T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,estimated,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
-2026-09-02,earnings,CRM,AMC,2026-09-02T16:00:00-04:00,NEXT_TRADING_DAY_CLOSE,confirmed,Confirmed/estimated during prior research -- BOX and QCOM dates still need final confirmation closer to the date.
+2024-01-30,earnings,MSFT,AMC,2024-01-30T16:00:00-05:00,2024-01-31T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-01-31,earnings,QCOM,AMC,2024-01-31T16:00:00-05:00,2024-02-01T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-02-13,earnings,HOOD,AMC,2024-02-13T16:00:00-05:00,2024-02-14T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-02-13,earnings,SHOP,BMO,2024-02-13T09:30:00-05:00,2024-02-13T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-02-28,earnings,CRM,AMC,2024-02-28T16:00:00-05:00,2024-02-29T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-03-05,earnings,BOX,AMC,2024-03-05T16:00:00-05:00,2024-03-06T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-04-25,earnings,MSFT,AMC,2024-04-25T16:00:00-04:00,2024-04-26T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-05-01,earnings,QCOM,AMC,2024-05-01T16:00:00-04:00,2024-05-02T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-05-08,earnings,HOOD,AMC,2024-05-08T16:00:00-04:00,2024-05-09T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-05-08,earnings,SHOP,BMO,2024-05-08T09:30:00-04:00,2024-05-08T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-05-28,earnings,BOX,AMC,2024-05-28T16:00:00-04:00,2024-05-29T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-05-29,earnings,CRM,AMC,2024-05-29T16:00:00-04:00,2024-05-30T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-07-30,earnings,MSFT,AMC,2024-07-30T16:00:00-04:00,2024-07-31T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-07-31,earnings,QCOM,AMC,2024-07-31T16:00:00-04:00,2024-08-01T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-08-07,earnings,HOOD,AMC,2024-08-07T16:00:00-04:00,2024-08-08T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-08-07,earnings,SHOP,BMO,2024-08-07T09:30:00-04:00,2024-08-07T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-08-27,earnings,BOX,AMC,2024-08-27T16:00:00-04:00,2024-08-28T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-08-28,earnings,CRM,AMC,2024-08-28T16:00:00-04:00,2024-08-29T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-10-30,earnings,MSFT,AMC,2024-10-30T16:00:00-04:00,2024-10-31T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-10-30,earnings,HOOD,AMC,2024-10-30T16:00:00-04:00,2024-10-31T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2024-11-06,earnings,QCOM,AMC,2024-11-06T16:00:00-05:00,2024-11-07T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-11-12,earnings,SHOP,BMO,2024-11-12T09:30:00-05:00,2024-11-12T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-12-03,earnings,BOX,AMC,2024-12-03T16:00:00-05:00,2024-12-04T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2024-12-03,earnings,CRM,AMC,2024-12-03T16:00:00-05:00,2024-12-04T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-01-29,earnings,MSFT,AMC,2025-01-29T16:00:00-05:00,2025-01-30T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-02-05,earnings,QCOM,AMC,2025-02-05T16:00:00-05:00,2025-02-06T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-02-11,earnings,SHOP,BMO,2025-02-11T09:30:00-05:00,2025-02-11T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-02-12,earnings,HOOD,AMC,2025-02-12T16:00:00-05:00,2025-02-13T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-02-26,earnings,CRM,AMC,2025-02-26T16:00:00-05:00,2025-02-27T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-03-04,earnings,BOX,AMC,2025-03-04T16:00:00-05:00,2025-03-05T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-04-30,earnings,MSFT,AMC,2025-04-30T16:00:00-04:00,2025-05-01T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-04-30,earnings,QCOM,AMC,2025-04-30T16:00:00-04:00,2025-05-01T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-04-30,earnings,HOOD,AMC,2025-04-30T16:00:00-04:00,2025-05-01T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-05-08,earnings,SHOP,BMO,2025-05-08T09:30:00-04:00,2025-05-08T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-05-27,earnings,BOX,AMC,2025-05-27T16:00:00-04:00,2025-05-28T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-05-28,earnings,CRM,AMC,2025-05-28T16:00:00-04:00,2025-05-29T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-07-30,earnings,MSFT,AMC,2025-07-30T16:00:00-04:00,2025-07-31T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-07-30,earnings,QCOM,AMC,2025-07-30T16:00:00-04:00,2025-07-31T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-07-30,earnings,HOOD,AMC,2025-07-30T16:00:00-04:00,2025-07-31T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-08-06,earnings,SHOP,BMO,2025-08-06T09:30:00-04:00,2025-08-06T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-08-26,earnings,BOX,AMC,2025-08-26T16:00:00-04:00,2025-08-27T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-09-03,earnings,CRM,AMC,2025-09-03T16:00:00-04:00,2025-09-04T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-10-29,earnings,MSFT,AMC,2025-10-29T16:00:00-04:00,2025-10-30T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2025-11-04,earnings,SHOP,BMO,2025-11-04T09:30:00-05:00,2025-11-04T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-11-05,earnings,QCOM,AMC,2025-11-05T16:00:00-05:00,2025-11-06T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-11-05,earnings,HOOD,AMC,2025-11-05T16:00:00-05:00,2025-11-06T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-12-02,earnings,BOX,AMC,2025-12-02T16:00:00-05:00,2025-12-03T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2025-12-03,earnings,CRM,AMC,2025-12-03T16:00:00-05:00,2025-12-04T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2026-01-28,earnings,MSFT,AMC,2026-01-28T16:00:00-05:00,2026-01-29T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2026-02-04,earnings,QCOM,AMC,2026-02-04T16:00:00-05:00,2026-02-05T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2026-02-10,earnings,HOOD,AMC,2026-02-10T16:00:00-05:00,2026-02-11T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2026-02-11,earnings,SHOP,BMO,2026-02-11T09:30:00-05:00,2026-02-11T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2026-02-25,earnings,CRM,AMC,2026-02-25T16:00:00-05:00,2026-02-26T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2026-03-03,earnings,BOX,AMC,2026-03-03T16:00:00-05:00,2026-03-04T16:00:00-05:00,confirmed,Confirmed via Alphaquery
+2026-04-28,earnings,HOOD,AMC,2026-04-28T16:00:00-04:00,2026-04-29T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-04-29,earnings,MSFT,AMC,2026-04-29T16:00:00-04:00,2026-04-30T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-04-29,earnings,QCOM,AMC,2026-04-29T16:00:00-04:00,2026-04-30T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-05-05,earnings,SHOP,BMO,2026-05-05T09:30:00-04:00,2026-05-05T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-05-26,earnings,BOX,AMC,2026-05-26T16:00:00-04:00,2026-05-27T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-05-27,earnings,CRM,AMC,2026-05-27T16:00:00-04:00,2026-05-28T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-07-29,earnings,MSFT,AMC,2026-07-29T16:00:00-04:00,2026-07-30T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-07-29,earnings,QCOM,AMC,2026-07-29T16:00:00-04:00,2026-07-30T16:00:00-04:00,estimated,Confirmed via Alphaquery
+2026-07-29,earnings,HOOD,AMC,2026-07-29T16:00:00-04:00,2026-07-30T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-08-05,earnings,SHOP,BMO,2026-08-05T09:30:00-04:00,2026-08-05T16:00:00-04:00,confirmed,Confirmed via Alphaquery
+2026-08-25,earnings,BOX,AMC,2026-08-25T16:00:00-04:00,2026-08-26T16:00:00-04:00,estimated,Confirmed via Alphaquery
+2026-09-02,earnings,CRM,AMC,2026-09-02T16:00:00-04:00,2026-09-03T16:00:00-04:00,confirmed,Confirmed via Alphaquery
 2024-11-05,election,ALL,all_day,2024-11-05T09:30:00-05:00,2024-11-05T16:00:00-05:00,confirmed,"2024 US presidential election day. Same-day-only exclusion applied -- this was a judgment call (reconsider a longer post-election tail if desired), over including multiple days in the exclusion"
 2024-01-31,fomc,ALL,intraday_2pm_et,2024-01-31T14:00:00-05:00,2024-01-31T16:00:00-05:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
 2024-03-20,fomc,ALL,intraday_2pm_et,2024-03-20T14:00:00-04:00,2024-03-20T16:00:00-04:00,confirmed,Sourced from federalreserve.gov meeting calendar / Fed press releases. Same-day-only exclusion. 
