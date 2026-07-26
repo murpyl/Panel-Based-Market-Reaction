@@ -177,3 +177,4 @@ pyrightconfig.json
 
 # Data
 /alpaca_data
+check_gaps.py

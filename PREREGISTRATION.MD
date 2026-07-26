@@ -23,6 +23,7 @@ Musk was originally included as a part of the expected-null group; however, due 
 **Stated limitation:** 
 - This panel is not sector-diversified, as all 7 accounts are tech-sector CEOs. Leave-one-account-out folds are not fully independent, and a sector-wide news event can move multiple tickers at once regardless of any individual post. Results are interpreted with this in mind, not treated as fully independent tests.
 - Attached media can confound tweets - text content may be a simple caption, whereas the main content or message is instead a link or a video. 
+- Data extraction from Alpaca API is not perfect. IEX does not include complete coverage; some tickers are missing some minutes of data. Low-coverage days are especially present around holidays.
 
 ## Test design
 - **Confirmatory test:** the 5-account plausible-signal group only.

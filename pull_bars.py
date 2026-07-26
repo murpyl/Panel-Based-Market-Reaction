@@ -48,7 +48,10 @@ def tag_session(bars_df: pd.DataFrame) -> pd.DataFrame:
             return "closed"
         if row["market_open"] <= row["timestamp_et"] < row["market_close"]:
             return "regular"
-        return "extended"
+        elif row["timestamp_et"] < row["market_open"]:
+            return "pre_market"
+        else:
+            return "after_hours"
  
     merged["session"] = merged.apply(classify, axis=1)
     return merged.drop(columns=["trade_date_naive", "market_open", "market_close"])
