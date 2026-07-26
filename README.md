@@ -36,6 +36,7 @@ Instead of studying a single high-profile account against a single stock (a heav
 ## Known limitations (stated up front)
 
 - **Free-tier price data (Alpaca/IEX) does not cover the full consolidated market tape**, particularly for volume. The primary target is defined on price/volatility (which tracks the broader market more closely even on a single venue) rather than volume, specifically to reduce exposure to this gap; volume-based results are treated as lower-confidence and secondary.
+    - BOX shows the lowest regular-session coverage, which is consistent with thin liquidity and is supported by time-of-day gap clusters and volume correlation with other tickers.
 - **Small panel size** (6 accounts) means limited statistical power and a panel chosen by researcher judgment about plausible signal, not a random or exhaustive sample.
 - **No control for news co-occurrence** in the base version of this project (an optional stretch feature using GDELT may be added if time allows) — so results should be read as "deviation-from-baseline correlates with abnormal activity," not "the post caused the reaction."
 - **Time-of-day seasonality** in market volatility (elevated near open/close) is explicitly adjusted for in the abnormal-event threshold to avoid spuriously flagging ordinary open/close activity.
