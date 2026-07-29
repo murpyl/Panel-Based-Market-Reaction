@@ -179,3 +179,4 @@ pyrightconfig.json
 /alpaca_data
 /x_posts
 check_gaps.py
+/x_posts_tagged
