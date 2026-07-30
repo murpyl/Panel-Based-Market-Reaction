@@ -21,7 +21,8 @@ SECRET_KEY = os.getenv("ALPACA_SECRET_KEY")
 client = StockHistoricalDataClient(API_KEY, SECRET_KEY)
 
 ET = ZoneInfo("America/New_York")
-TICKERS = ["MSFT", "CRM", "BOX", "QCOM", "HOOD", "SHOP"]
+#TICKERS = ["MSFT", "CRM", "BOX", "QCOM", "HOOD", "SHOP"]
+TICKERS = ["SPY"]
 START = datetime(2024, 1, 1, tzinfo=ET)
 END = datetime(2026, 7, 17, 23, 59, tzinfo=ET)
 
