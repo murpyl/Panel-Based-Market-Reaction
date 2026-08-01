@@ -150,14 +150,22 @@ def summarize_cv(preds: pd.DataFrame, label: str):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--panel", required=True, help="Output of assemble_final_panel.py")
-    parser.add_argument("--output-predictions", required=True)
+    parser.add_argument("--output-predictions", help="Output CSV path for CV predictions (required unless --skip-cv is used)")
+    parser.add_argument("--skip-cv", action="store_true", help="Skip the CV step and only do the primary test")
     args = parser.parse_args()
+
+    if not args.skip_cv and not args.output_predictions:
+        parser.error("--output-predictions is required unless --skip-cv is used.")
 
     conf = load_confirmatory_rows(args.panel)
     print(f"Loaded {len(conf)} confirmatory-eligible rows across {conf['author_id'].nunique()} accounts.",
           file=sys.stderr)
 
     primary_result = run_primary_test(conf)
+
+    if args.skip_cv:
+        print("\nSkipping LOAO walk-forward CV as requested by --skip-cv.", file=sys.stderr)
+        return
 
     print("\nRunning LOAO walk-forward CV (logistic regression)...", file=sys.stderr)
     logit_preds = walk_forward_predict(conf, lambda: LogisticRegression(C=UNREGULARIZED_C))

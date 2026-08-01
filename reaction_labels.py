@@ -5,13 +5,17 @@ import sys
 import numpy as np
 import pandas as pd
 
-BUCKET_MINUTES = 30
+BUCKET_MINUTES = 60
 MIN_BASELINE_N = 30            # buckets with fewer baseline samples than this are flagged unreliable, not dropped
 ABNORMAL_PERCENTILE = 90       # flag if raw_volatility exceeds this percentile of the ticker/bucket baseline
 ABNORMAL_Z_THRESHOLD = 2.0     # kept only as a secondary diagnostic column, not the primary flag anymore
-MIN_BARS_FOR_INCLUSION = 8     # bars_found > 7 -> included with caveat; <= 7 -> excluded as insufficient
-WINDOW_BARS = 15
-WINDOW_MINUTES = 14
+MIN_BARS_FOR_INCLUSION = 28     # bars_found > 7 -> included with caveat; <= 7 -> excluded as insufficient
+WINDOW_BARS = 60
+WINDOW_MINUTES = 59
+
+# 15 min, min bars = 7
+# 5 min, min bars = 2
+# 60 min, min bars = 28, bucket_mins = 60
 
 BAR_COLS = {
     "ts_utc": "timestamp_utc",

@@ -13,7 +13,7 @@ HANDLE_MAP = {
 
 
 def combine_ticker_csvs(input_directory, output_filename="combined_data.csv"):
-    file_pattern = os.path.join(input_directory, "*")
+    file_pattern = os.path.join(input_directory, "*_joined_60min.csv")
     csv_files = glob.glob(file_pattern)
     
     if not csv_files:
@@ -25,7 +25,7 @@ def combine_ticker_csvs(input_directory, output_filename="combined_data.csv"):
     for file in csv_files:
         filename = os.path.basename(file)
         
-        ticker = filename.replace('.csv', '')
+        ticker = filename.replace('_joined_60min.csv', '').upper()
         ticker = HANDLE_MAP.get(ticker, ticker)
         
         
@@ -50,4 +50,4 @@ def combine_ticker_csvs(input_directory, output_filename="combined_data.csv"):
         print("No data was combined.")
 
 
-combine_ticker_csvs("./x_posts", "all_posts_combined.csv")
+combine_ticker_csvs("./joined_60min", "all_tickers_joined_60min.csv")
