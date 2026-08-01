@@ -2,6 +2,16 @@ import pandas as pd
 import glob
 import os
 
+HANDLE_MAP = {
+    "satyanadella": "MSFT",
+    "levie": "BOX",
+    "cristianoamon": "QCOM",
+    "vladtenev": "HOOD",
+    "tobi": "SHOP",
+    "Benioff": "CRM",
+}
+
+
 def combine_ticker_csvs(input_directory, output_filename="combined_data.csv"):
     file_pattern = os.path.join(input_directory, "*")
     csv_files = glob.glob(file_pattern)
@@ -15,7 +25,9 @@ def combine_ticker_csvs(input_directory, output_filename="combined_data.csv"):
     for file in csv_files:
         filename = os.path.basename(file)
         
-        ticker = filename.replace('_joined.csv', '').upper()
+        ticker = filename.replace('.csv', '')
+        ticker = HANDLE_MAP.get(ticker, ticker)
+        
         
         try:
             df = pd.read_csv(file)
