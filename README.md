@@ -9,7 +9,9 @@ The pre-registered statement can be found at `PREREGISTRATION.MD`.
 horizon) was directionally consistent and nominally significant before correction
 (p = 0.0202), but **did not survive Bonferroni correction** for the pre-specified 3-horizon
 comparison family (corrected p = 0.0606). The full results, including a secondary pattern
-that's more consistent with the study's own null hypothesis than its main one, are below.
+that's more consistent with the study's own null hypothesis than its main one, are below./
+
+Please reach out if you wish to see the data.
 
 ---
 
