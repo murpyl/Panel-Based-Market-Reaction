@@ -3,9 +3,8 @@ import sys
 
 import pandas as pd
 
-TICKER = "SHOP"
-WINDOW_BARS = 15
-WINDOW_MINUTES = 14  # 0-14 Inclusive
+WINDOW_BARS = 60
+WINDOW_MINUTES = 59  # 0-14 Inclusive
 
 BAR_COLS = {
     "ts_utc": "timestamp_utc",
@@ -14,7 +13,7 @@ BAR_COLS = {
     "session": "session",
 }
 
-def load_inputs(posts_path, bars_path, confound_path):
+def load_inputs(posts_path, bars_path, confound_path, ticker):
     posts = pd.read_csv(posts_path, dtype={"id": str, "author_id": str})
     posts["created_at_utc"] = pd.to_datetime(posts["created_at_utc"], utc=True)
 
@@ -27,7 +26,7 @@ def load_inputs(posts_path, bars_path, confound_path):
     confound["exclusion_start"] = pd.to_datetime(confound["exclusion_start"], utc=True)
     confound["exclusion_end"] = pd.to_datetime(confound["exclusion_end"], utc=True)
     
-    confound = confound[(confound["ticker"] == TICKER) | (confound["ticker"] == "ALL")].reset_index(drop=True)
+    confound = confound[(confound["ticker"] == ticker) | (confound["ticker"] == "ALL")].reset_index(drop=True)
 
     return posts, bars, confound
 
@@ -176,9 +175,10 @@ def main():
     parser.add_argument("--bars", required=True)
     parser.add_argument("--confound", required=True)
     parser.add_argument("--output", required=True)
+    parser.add_argument("--ticker", required = True)
     args = parser.parse_args()
 
-    posts, bars, confound = load_inputs(args.posts, args.bars, args.confound)
+    posts, bars, confound = load_inputs(args.posts, args.bars, args.confound, args.ticker)
     print(f"Loaded {len(posts)} posts, {len(bars)} bars, {len(confound)} relevant confound rows.", file=sys.stderr)
 
     results = [process_post(row, bars, confound) for _, row in posts.iterrows()]
@@ -198,7 +198,7 @@ def main():
     print(f"Off-hours posts:           {n_offhours}")
     print(f"No bar coverage at all:    {n_no_coverage}  <- investigate any of these individually")
     print(f"Confound-excluded posts:   {n_excluded}")
-    print(f"Windows with <15 bars:     {n_short_window}")
+    print(f"Windows with <{WINDOW_BARS} bars:     {n_short_window}")
           
     if n_regular:
         reg = out[out["session_at_post"] == "regular"]["minutes_elapsed_actual"].dropna()

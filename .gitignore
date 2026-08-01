@@ -183,3 +183,5 @@ check_gaps.py
 /joined
 /deviations
 /unused
+/joined_5min
+/joined_60min
